@@ -1,11 +1,13 @@
 window.addEventListener('DOMContentLoaded',()=>{
     const pic=document.getElementById('profile-pic');
     const uname=document.getElementById('user-name');
+    setTimeout(()=>{
     let storedData=localStorage.getItem("user-information");
-    if(!storedData)
+    if(!storedData || storedData===null)
     {
         pic.style.display="none";
         uname.style.display="none";
+        return;
     }
     let u_profile=JSON.parse(storedData);
     let name=u_profile.UserName;
@@ -16,4 +18,5 @@ window.addEventListener('DOMContentLoaded',()=>{
     const col=Math.floor(Math.random()*colors.length);
     const color=colors[col];
     pic.style.backgroundColor=color;
+},150);
 })
