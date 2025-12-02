@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles/videoplayer-header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/chart.css">
+</head>
+<body>
+     <div class="header">
+        <div class="left-section" id="leftSection">
+            <button class="arrow-button" id="arrow-buttons">
+                <img src="icons/arrow-for-black.png" class="arrow">
+            </button>
+            <img src="icons/youtube-for-black.png" class="youtube-icon">
+            <p class="youtube">YouTube</p>
+        </div>
+        <div class="middle-section" id="middleSection">
+            <input type="text" placeholder="Search" class="searchBar" style="height:37px ; border-width: 0.1;" id="searchBar">
+            <button class="search-button">
+                <img src="icons/search-for-black.png" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="mic-button" id="mic-button">
+                <img src="icons/mic-for-black.png" class="mic-icon">
+            </button>
+        </div>
+        <div class="right-section" id="rightSection">
+            <button class="create-button">
+                <img src="icons/create-for-black.png" class="create-icon">
+            </button>
+            <button class="theme-button">
+                <img src="icons/sun-for-black.png" class="theme-icon">
+            </button>
+            <div class="bell-icon-container">
+                <button class="bell-button">
+                    <img src="icons/bell-for-black.png" class="bell-icon">
+                </button>
+                <div class="notification-count">
+                    1
+                </div>
+            </div>
+            <button class="login-button">
+                <img src="icons/login-for-black.png" class="login-icon">
+            </button>
+            <p class="login">Login</p>
+        </div>
+    </div>
+    <div class="chart" id="chart">
+            <h1>Today's Screen Time</h1>
+            <button class="close-chart" id="close-chart">✕</button>
+            <p id="today-time" class="today-time"></p>
+            <canvas id="todayChart"></canvas>
+        </div>
+        <script src="js/session.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="js/chart.js" defer></script>
+</body>

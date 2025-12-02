@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="styles/login.css">
+        
+    </head>
+    <body>
+        <p class="logo"></p>
+        <img src="icons/play-icon.png" class="play">
+        <p class="sign"><span class="sign-span">Sign-in</span> To Continue</p>
+        <form id="loginForm">
+        <div class="login-box">
+            <input type="text" class="textbox" placeholder="UserName" id="TB" required>
+            <input type="password" class="password" placeholder="Password" id="pass" required> 
+            <input type="password" class="confirmpassword" placeholder=" Confirm Password" id="cpass" required> 
+            <button class="login" id="login" type="submit">Login</button>
+        </div>
+         <div class="design">
+            <p class="greetings">Welcome To My <span class="greeting-span">YouTube</span></p>
+         </div>
+         <div class="error" id="error">
+            <p>Password Mismatched!!</p>
+         </div>
+         <footer>
+            <p class="footer-text">© 2025 Easwaran V. All rights reserved.</p>
+        </footer>
+         </form>
+         <script src="js/login.js" defer></script>
+    </body>
+</html>

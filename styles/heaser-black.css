@@ -1,0 +1,145 @@
+.header{
+    background-color: rgb(10, 10, 10);
+}
+.hamburger-button{
+    background-color: rgb(10, 10, 10);
+}
+.hamburger-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.hamburger-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .hamburger-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .hamburger-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.youtube{
+    color:white;
+}
+.searchBar{
+    border-color: white;
+}
+.search-button{
+    background-color: rgb(10, 10, 10);
+}       
+.search-button .tooltip{
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+.search-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.search-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .search-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .search-button:active{
+    background-color: rgb(60, 60, 60);
+}}
+.mic-button{
+    border-color: rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10);
+}
+.mic-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.mic-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .mic-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .mic-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.create-button{
+    background-color: rgb(10, 10, 10);
+}
+.create-button:hover{
+    background-color: rgb(50, 50, 50);
+} 
+.create-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .create-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .create-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.theme-button{
+    background-color: rgb(10, 10, 10);
+}
+.theme-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.theme-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .theme-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .theme-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.bell-button{
+    background-color: rgb(10, 10, 10);
+}
+.bell-button:hover{
+   background-color: rgb(50, 50, 50);
+}  
+.bell-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .bell-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .bell-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.notification-count{
+    background-color: rgb(211, 2, 2);
+    color: white;  
+}
+@media(max-width:600px){
+    .notification-count{
+    background-color: red;
+    color: white;
+    }
+}
+.login-button{
+    background-color:rgb(10, 10, 10);
+}
+.login-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.login-button:active{
+    background-color: rgb(60, 60, 60);
+}
+@media(max-width:700px){
+    .login-button:hover{
+        background-color: rgb(10, 10, 10);
+    }
+    .login-button:active{
+    background-color: rgb(60, 60, 60);
+}
+}
+.login{
+    color: white;
+}

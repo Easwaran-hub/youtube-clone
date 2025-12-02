@@ -1,0 +1,45 @@
+.chart-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: none;           /* initially hidden */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;           /* always on top */
+}
+
+.chart-box {
+    width: 400px;
+    height: 400px;
+    background: rgba(30,30,30,0.95);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+}
+
+.chart-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Roboto, Arial;
+}
+
+.close-chart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background: rgb(50,50,50);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.close-chart:hover {
+    background: rgb(70,70,70);
+}

@@ -1,0 +1,149 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.hamburger-button{
+    background-color: rgb(255, 255, 255);
+}
+.hamburger-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.hamburger-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .hamburger-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .hamburger-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.youtube{
+    color:rgb(31, 31, 31);
+}
+.searchBar{
+    /* border-color: rgb(190, 190, 190); */
+    background-color: rgb(255, 255, 255);
+}
+.search-button{
+    background-color: rgb(255, 255, 255);
+}       
+.search-button .tooltip{
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+.search-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.search-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .search-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .search-button:active{
+    background-color: rgb(180, 180, 180);
+}}
+.mic-button{
+    border-color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+.mic-button:hover{
+   background-color: rgb(210, 210, 210);
+}
+.mic-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .mic-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .mic-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.create-button{
+    background-color: rgb(255, 255, 255);
+}
+.create-button:hover{
+    background-color: rgb(210, 210, 210);
+} 
+.create-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .create-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .create-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.theme-button{
+    background-color: rgb(255, 255, 255);
+}
+.theme-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.theme-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .theme-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .theme-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.bell-button{
+    background-color: rgb(255, 255, 255);
+}
+.bell-button:hover{
+   background-color: rgb(210, 210, 210);
+}  
+.bell-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .bell-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .bell-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.notification-count{
+    background-color: rgb(211, 2, 2);
+    color: white;  
+}
+@media(max-width:600px){
+    .notification-count{
+    background-color: red;
+    color: white;
+    }
+}
+.login-button{
+    background-color: rgb(255, 255, 255);
+}
+.login-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.login-button:active{
+    background-color: rgb(180, 180, 180);
+}
+@media(max-width:700px){
+    .login-button:hover{
+        background-color: rgb(210, 210, 210);
+    }
+    .login-button:active{
+    background-color: rgb(180, 180, 180);
+}
+}
+.login{
+    color: rgb(0, 0, 0);
+}

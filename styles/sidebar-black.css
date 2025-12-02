@@ -1,0 +1,64 @@
+.sidebar{
+
+    background-color: rgb(10, 10, 10);
+}
+.home-button{
+    background-color: rgb(10, 10, 10);
+}
+.home-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.home-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.home{
+    color: white;
+}
+.shorts-button{
+    background-color: rgb(10, 10, 10);
+}
+.shorts-button:hover{
+   background-color: rgb(50, 50, 50);
+}
+.shorts-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.shorts{
+    color: white;
+}
+.subscription-button{
+    background-color: rgb(10, 10, 10);
+}
+.subscription-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.subscription-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.subscription{
+    color: white;
+}
+.you-button{
+    background-color: rgb(10, 10, 10);
+}
+.you-button:hover{
+     background-color: rgb(50, 50, 50);
+}
+.you-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.you{
+    color: white;
+}
+.downloads-button{
+    background-color: rgb(10, 10, 10);
+}
+.downloads-button:hover{
+   background-color: rgb(50, 50, 50);
+}
+.downloads-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.downloads{
+    color: white;
+}

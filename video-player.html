@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="styles/videoplayer-header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video-player.css">
+</head>
+<body style="padding-bottom: 1000px;">
+    <div class="header">
+        <div class="left-section" id="leftSection">
+            <button class="arrow-button" id="arrow-button">
+                <img src="icons/arrow-for-black.png" class="arrow">
+            </button>
+            <img src="icons/youtube-for-black.png" class="youtube-icon">
+            <p class="youtube">YouTube</p>
+        </div>
+        <div class="middle-section" id="middleSection">
+            <input type="text" placeholder="Search" class="searchBar" style="height:37px ; border-width: 0.1;" id="searchBar">
+            <button class="search-button">
+                <img src="icons/search-for-black.png" class="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="mic-button" id="mic-button">
+                <img src="icons/mic-for-black.png" class="mic-icon">
+            </button>
+        </div>
+        <div class="right-section" id="rightSection">
+            <button class="create-button">
+                <img src="icons/create-for-black.png" class="create-icon">
+            </button>
+            <button class="theme-button">
+                <img src="icons/sun-for-black.png" class="theme-icon">
+            </button>
+            <div class="bell-icon-container">
+                <button class="bell-button">
+                    <img src="icons/bell-for-black.png" class="bell-icon">
+                </button>
+                <div class="notification-count">
+                    1
+                </div>
+            </div>
+            <button class="login-button">
+                <img src="icons/login-for-black.png" class="login-icon">
+            </button>
+        </div>
+    </div>
+        <div class="video-page">
+            <div class="video-left">
+                <div class="video-player">
+                    <video controls  id="mainVideo">
+                        <source src="" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-details" id="video-details">
+                    <p class="video-title1" id="video-title1">
+                        
+                    </p>
+                    <div class="video-stats1" id="video-stats1">
+                        
+                    </div>
+                    <div class="channel-info">
+                        <img src="logos/sony_logo.jpg" alt="channel-logo" class="channel-logo" id="logo">                   
+                      <div class="chaneel-meta">
+                        <p class="channel-name" id="video-author"></p>
+                        <p class="subscribers"></p>
+                      </div>
+                       <button class="subscribe-button">Subscribe</button>
+                    </div>
+                    <div class="video-actions">
+                        <button class="like-button">
+                            <img src="icons\like-for-black.png" class="like-icon">
+                            <p class="like">Like</p>
+                        </button>
+                        <button class="dislike-button">
+                            <img  src="icons\dislike-for-black.png" class="dislike-icon">
+                            <p class="dislike">Dislike</p>
+                        </button>
+                        <button class="download-button">
+                            <img src="icons/download-for-black.png" class="download-icon">
+                            <p class="download">Download</p>
+                        </button>
+                    </div>
+                    <div class="video-description">
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <p class="com">
+                        Comments
+                    </p>
+                    <div class="add-comment">
+                        <input type="text" placeholder="Add comment" class="comment-input">
+                        <button class="comment-button">Comment</button>
+                     </div>
+                    
+                     <div class="comments">
+                        <p class="user-pic"><span class="user-initial">V</span></p>
+                        <div class="comment-text">
+                            <p class="user-name">@Actor Vijay <span class="comment-timing">1 minute ago</span></p>
+                            <p class="user-comment">The Legend Returns🔥</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-right">
+                <div class="suggestions" data-video="vikram">
+                    <button class="suggestion-button" data-video="vikram">
+                    <img src="thumbnails/vikram.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            VIKRAM - Official Trailer | Kamal Haasan | VijaySethupathi| LokeshKanagaraj | Anirudh
+                        </p>
+                        <p class="stats">
+                            50M views &#183; 3 Years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/sony_logo.jpg">
+                       </div>
+                        <p class="video-author">
+                            Sony Music South  &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions" data-video="indian2">
+                    <button class="suggestion-button" data-video="indian2">
+                    <img src="thumbnails/indian2.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                             Indian 2 Trailer | Kamal Haasan | Shankar | Anirudh | Subaskaran | Lyca Productions | Red Giant
+                        </p>
+                        <p class="stats">
+                            21M views &#183; 1 year ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/lyca-logo.png">
+                       </div>
+                        <p class="video-author">
+                            Lyca Productions  &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="thuglife">
+                    <button class="suggestion-button" data-video="thuglife">
+                    <img src="thumbnails/thuglife.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                             Thug Life - Official Trailer | Kamal Haasan | Mani Ratnam | STR | AR Rahman | RKFI | MT | RG
+                        </p>
+                        <p class="stats">
+                            50M views &#183; 3 Years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/saregama_logo.jpg">
+                       </div>
+                        <p class="video-author">
+                           Sony Music South &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="uttamavillain">
+                    <button class="suggestion-button" data-video="uttamavillain">
+                    <img src="thumbnails/uttamavillain.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Uttama Villain Official Trailer | Kamal Haasan | Ghibran
+                        </p>
+                        <p class="stats">
+                            1.5M views &#183; 10 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/sony music india-logo.png">
+                       </div>
+                        <p class="video-author">
+                           Sony Music India  &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="vishwaroopam">
+                    <button class="suggestion-button" data-video="vishwaroopam">
+                    <img src="thumbnails/vishwaroopam.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                             Vishwaroopam Official Trailer | Kamal Haasan | Pooja Kumar | Andreah Jeremiah | Nassar | Rahul Bose
+                        </p>
+                        <p class="stats">
+                            449K views &#183; 12 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/AP international-logo.jpg">
+                       </div>
+                        <p class="video-author">
+                            AP International &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="vishwaroopam2">
+                    <button class="suggestion-button" data-video="vishwaroopam2">
+                    <img src="thumbnails/vishwaroopam2.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Vishwaroopam 2 (Tamil) - Official Trailer | Kamal Haasan | Ghibran
+                        </p>
+                        <p class="stats">
+                            8.4M views &#183; 3 Months ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/RKFI logo.png">
+                       </div>
+                        <p class="video-author">
+                            Raj Kamal Film Industries &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="heyram">
+                    <button class="suggestion-button" data-video="heyram">
+                    <img src="thumbnails/heyram.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Hey Ram (2000) - Official Trailer Recuts HD | ஹேராம் | Kamal Haasan | Ilaiyaraaja
+                        </p>
+                        <p class="stats">
+                            1.2M views &#183; 6 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/RKFI logo.png">
+                       </div>
+                        <p class="video-author">
+                            Raj Kamal Film Industries &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="aalavandhan">
+                    <button class="suggestion-button" data-video="aalavandhan">
+                    <img src="thumbnails/aalavandhan.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Aalavandhan Official Release Trailer | Kamal Haasan | Suresh Krissna | Raveena | Shankar-Ehsaan-Loy
+                        </p>
+                        <p class="stats">
+                            1.5M views &#183; 1 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/kalaipuli.jpg">
+                       </div>
+                        <p class="video-author">
+                            Kalaippuli S Thanu &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="indian">
+                    <button class="suggestion-button" data-video="indian">
+                    <img src="thumbnails/indian.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Indian(1996) Re-Trailer | Kamal Hasan , Manisha Koirala | Shankar | AR Rahman
+                        </p>
+                        <p class="stats">
+                            651K views &#183; 5 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/lyca-logo.png">
+                       </div>
+                        <p class="video-author">
+                            Lyca Productions &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="marudhanayagam">
+                    <button class="suggestion-button" data-video="marudhanayagam">
+                    <img src="thumbnails/marudhanayagam.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Marudhanayagam Exclusive Song | Kamal Haasan | Ilaiyaraaja Official
+                        </p>
+                        <p class="stats">
+                            26M views &#183; 9 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/ilaiyaraja.png">
+                       </div>
+                        <p class="video-author">
+                            Ilaiyaraja Official &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="Once upon a time">
+                    <button class="suggestion-button" data-video="Once upon a time">
+                    <img src="thumbnails/once.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Once Upon A Time Video | VIKRAM | Kamal Haasan | Anirudh Ravichander | Lokesh Kanagaraj
+                        </p>
+                        <p class="stats">
+                            39M views &#183; 3 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/sony_logo.jpg">
+                       </div>
+                        <p class="video-author">
+                            Sony Music South &#10003;
+                        </p>
+                    </div>
+                </div>
+                <div class="suggestions"data-video="unnai kaanadhu naan">
+                    <button class="suggestion-button" data-video="unnai kaanadhu naan">
+                    <img src="thumbnails/unnai.jpg" class="thumb" alt="video-thumbnail">
+                    </button>
+                    <div class="meta">
+                        <p class="title">
+                            Vishwaroopam - Unnai Kaanadhu Naan Video | Kamal Haasan
+                        </p>
+                        <p class="stats">
+                            58M views &#183; 10 years ago
+                        </p>
+                        <div class="channel-picture">
+                           <img class="logo" src="logos/sony_logo.jpg">
+                       </div>
+                        <p class="video-author">
+                            Sony Music South &#10003;
+                        </p>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <script src="js/videoplayer.js" defer></script>
+        <script src="js/searchbar.js" defer></script>
+        <script src="js/arrow.js" defer></script>
+        <script src="js/search.js" defer></script>  
+</body>
+</html>

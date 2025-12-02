@@ -1,0 +1,66 @@
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.home-button{
+    background-color: rgb(255, 255, 255);
+}
+.home-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.home-button:active{
+    background-color: rgb(180, 180, 180);
+}
+.home{
+    color: rgb(0, 0, 0);
+}
+.shorts-button{
+    background-color: rgb(255, 255, 255);
+}
+.shorts-button:hover{
+  background-color: rgb(210, 210, 210);
+}
+.shorts-button:active{
+    background-color: rgb(180, 180, 180);
+}
+.shorts{
+    color: rgb(0, 0, 0);
+}
+.subscription-button{
+    background-color: rgb(255, 255, 255);
+}
+.subscription-button:hover{
+    background-color: rgb(210, 210, 210);
+}
+.subscription-button:active{
+    background-color: rgb(180, 180, 180);
+}
+.subscription{
+    color: rgb(0, 0, 0);
+}
+.you-button{
+   background-color: rgb(255, 255, 255);
+}
+.you-button:hover{
+     background-color: rgb(210, 210, 210);
+}
+.you-button:active{
+    background-color: rgb(180, 180, 180);
+}
+.you{
+   color: rgb(0, 0, 0);
+}
+.downloads-button{
+   background-color: rgb(255, 255, 255);
+}
+.downloads-button:hover{
+   background-color: rgb(210, 210, 210);
+}
+.downloads-button:active{
+    background-color: rgb(180, 180, 180);
+}
+.downloads{
+   color: rgb(0, 0, 0);
+}

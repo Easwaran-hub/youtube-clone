@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+}
+.sidebar{
+    display: flex;
+    background-color: rgb(10, 10, 10);
+    flex-direction: column;
+    width: 100px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    position: relative;
+}
+@media (max-width:600px){
+    .sidebar{
+        flex-direction: row;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        justify-content: space-around;
+        align-items: center;
+        border-right: none;
+        position: fixed;
+        z-index: 1000;
+        border: none;
+        padding: 0;
+    }
+}
+.home-button{
+    position: absolute;
+    width:98%;
+    left: 1px;
+    height: 100px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+@media(max-width:600px){
+    .home-button{
+        width: 15%;
+        height: 98%;
+        border-radius: 10px;
+    }
+}
+.home-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.home-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.home-icon{
+    width: 40px;
+    margin-top: 15px;
+    color: white;
+}
+.home{
+    color: white;
+}
+@media(max-width:600px){
+    .home-icon{
+        width: 30px;
+        margin-top: 5px;
+    }
+    .home{
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}
+.shorts-button{
+    position: absolute;
+    width:98%;
+    left: 1px;
+    height: 100px;
+    top: 115px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 20px;
+}
+@media(max-width:600px){
+    .shorts-button{
+        width: 15%;
+        height: 98%;
+        margin-top: -115px;
+        margin-left: 21%;
+        border-radius: 10px;
+    }
+}
+.shorts-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.shorts-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.shorts-icon{
+    width: 40px;
+    margin-top: 15px;
+}
+.shorts{
+    color: white;
+}
+@media(max-width:600px){
+    .shorts-icon{
+        width: 30px;
+        margin-top: 5px;
+    }
+    .shorts{
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}
+.subscription-button{
+    position: absolute;
+    width:98%;
+    left: 1px;
+    height: 100px;
+    top: 220px;
+   background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 20px;
+}
+@media(max-width:600px){
+    .subscription-button{
+        width: 15%;
+        height: 98%;
+        margin-top: -220px;
+        margin-left: 42%;
+        border-radius: 10px;
+    }
+}
+.subscription-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.subscription-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.subscription-icon{
+    width: 40px;
+    margin-top: 15px;
+}
+.subscription{
+    color: white;
+}
+@media(max-width:600px){
+    .subscription-icon{
+        width: 30px;
+        margin-top: 5px;
+    }
+    .subscription{
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}
+.you-button{
+    position: absolute;
+    width:98%;
+    left: 1px;
+    height: 100px;
+    top: 325px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 20px;
+}
+@media(max-width:600px){
+    .you-button{
+        width: 15%;
+        height: 98%;
+        margin-top: -325px;
+        margin-left: 63%;
+        border-radius: 10px;
+    }
+}
+.you-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.you-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.you-icon{
+    width: 40px;
+    margin-top: 15px;
+}
+.you{
+    color: white;
+}
+@media(max-width:600px){
+    .you-icon{
+        width: 30px;
+        margin-top: 5px;
+    }
+    .you{
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}
+.downloads-button{
+    position: absolute;
+    width:98%;
+    left: 1px;
+    height: 100px;
+    top: 430px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 20px;
+}
+@media(max-width:600px){
+    .downloads-button{
+        width: 15%;
+        height: 98%;
+        margin-top: -430px;
+        margin-left: 80%;
+        border-radius: 10px;
+    }
+}
+.downloads-button:hover{
+    background-color: rgb(50, 50, 50);
+}
+.downloads-button:active{
+    background-color: rgb(60, 60, 60);
+}
+.download-icon{
+    width: 40px;
+    margin-top: 15px;
+}
+.downloads{
+    color: white;
+}
+@media(max-width:600px){
+    .download-icon{
+        width: 30px;
+        margin-top: 5px;
+    }
+    .downloads{
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}

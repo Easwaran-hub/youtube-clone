@@ -1,0 +1,103 @@
+.profile-container{
+    width:180px;
+    height:180px;
+    margin-left: 43%;
+    border-radius: 100%;
+    margin-top: 100px;
+}
+.profile-pic{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.name{
+    color: white;
+    margin-top: 0;
+    background: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 25px;
+}
+.title{
+    color: white;
+    font-size: 13px;
+    width: 250px;
+    margin-left: -20px;
+}
+.js{
+    margin-left: 40px;
+}
+.hr1{
+    width: 1300px;
+    size: 0.5px;
+    background-color: gray;
+}
+.subheading{
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.text1{
+    color: white;
+    margin-left: 170px;
+    font-size: 17px;
+}
+.text2{
+    color: white;
+    margin-left: 170px;
+    font-size: 17px;
+}
+.hr2{
+    width:700px
+}
+ul{
+    margin-left: 220px;
+    color: white;
+}
+.information{
+    color: white;
+    margin-left: 210px;
+    font-size: 17px;
+}
+.image{
+    width: 25px;
+    margin-bottom: -5px;
+padding-top: 5px;
+}
+.footer-text{
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+@media(max-width:600px){
+    .profile-container{
+        margin-left: 30%;
+    }
+    .name{
+        margin-left: 20px;
+    }
+    .title{
+        width: 230px;
+        margin-left: -10px;
+    }
+    .js{
+        margin-left: 30px;
+    }
+    .subheading{
+        margin-left: 70px;
+    }
+    .text1{
+        margin-left: 100px;
+    }
+    .text2{
+        margin-left: 100px;
+    }
+    ul{
+        margin-left: 150px;
+    }
+    .information{
+        margin-left: 140px;
+    }
+}

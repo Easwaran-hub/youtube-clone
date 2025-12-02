@@ -1,0 +1,16 @@
+
+.video-title{
+    color: white;
+}
+.thumbnail{
+    border-color: white;
+}
+.video-author{
+    color: rgb(137, 139, 139);
+}
+.video-stats{
+    color: rgb(137, 139, 139);
+}
+.video-time{
+    background-color: black;
+}
