@@ -103,6 +103,11 @@
     padding-left: 30px;
     transition:width 0.4s ease,opacity 0,4s ease;
 }
+@media(max-width:600px){
+    .searchBar{
+        margin-left: 90px;
+    }
+}
 .searchBar:focus{
     opacity: 1;
     outline: none;
@@ -208,7 +213,7 @@
      .searchBar{
         width: 300px;
         border-radius: 50px;
-        margin-left: -250px;
+        margin-left: -50px;
         display: none;
      }
      
