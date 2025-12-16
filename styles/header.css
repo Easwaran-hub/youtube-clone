@@ -277,7 +277,7 @@
 @media(max-width:600px){
     .right-section{
         width:50;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 }
 .create-button{
