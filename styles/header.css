@@ -213,7 +213,7 @@
      .searchBar{
         width: 300px;
         border-radius: 50px;
-        margin-left: -50px;
+        margin-left: -60px;
         display: none;
      }
      
@@ -260,7 +260,7 @@
 }
 @media(max-width:600px){
     .mic-icon{
-        margin-left: -33px;
+        margin-left: -38px;
     }
 }
 .right-section{

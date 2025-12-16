@@ -19,7 +19,7 @@ searchButton.addEventListener('click',()=>{
     middlesection.style.marginLeft="50px";
     searchButton.style.display="none";
     arrowBtn.style.display="flex";
-    mic.style.display="block";
+    mic.style.marginLeft="500px";                                                   
   }
 })
 arrowBtn.addEventListener("click",()=>{

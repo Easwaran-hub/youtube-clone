@@ -53,7 +53,7 @@ body{
 .play{
     position: absolute;
     width:25px;
-    margin-left: 650px;
+    margin-left: 695px;
     margin-top: -55px;
     animation: play 4s cubic-bezier(0.22,1,0.36,1) forwards;
 }
@@ -83,7 +83,7 @@ body{
 }
 @media(max-width:600px){
     .play{
-        margin-left: 230px;
+        margin-left: 200px;
     }
 }
 .youtube{
@@ -215,7 +215,7 @@ body{
 @media(max-width:600px){
     .design{
          width: 200px;
-         margin-left: 50px;
+         margin-left: 10px;
     }
 }
 .greetings{
