@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const middlesection = document.querySelector('.middle-section');
   const header=document.querySelector('.header');
   const arrowBtn=document.createElement("button");
+  const mic=document.getElementById("mic-button");
   arrowBtn.className="arrow-button";
   arrowBtn.innerHTML=`<img src="icons/arrow-for-black.png" class="arrow">`;
   arrowBtn.style.display="none";
@@ -18,6 +19,7 @@ searchButton.addEventListener('click',()=>{
     middlesection.style.marginLeft="50px";
     searchButton.style.display="none";
     arrowBtn.style.display="flex";
+    mic.style.display="block";
   }
 })
 arrowBtn.addEventListener("click",()=>{
