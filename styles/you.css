@@ -191,6 +191,8 @@ body{
 @media(max-width:600px){
     .profile-pic{
         margin-left: 20px;
+        text-align: center;
+
     }
 }
 .user-name{
@@ -203,7 +205,6 @@ body{
 @media(max-width:600px){
     .user-name{
         margin-left: 110px;
-        margin-top: 10px;
     }
 }
 .history{
