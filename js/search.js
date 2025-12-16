@@ -16,7 +16,7 @@ searchButton.addEventListener('click',()=>{
     rightSection.style.display="none";
     searchBar.style.display="block";
     middlesection.style.marginLeft="50px";
-    searchButton.style.marginLeft="160px";
+    searchButton.style.display="none";
     arrowBtn.style.display="flex";
   }
 })
