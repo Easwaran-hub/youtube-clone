@@ -135,7 +135,7 @@
        
         border-radius: 100%;
         width: 40px;
-        margin-left: 35px;
+        margin-left: 15px;
         z-index: 1000;
         padding-left: 40px;
         border: none;
@@ -213,7 +213,7 @@
      .searchBar{
         width: 300px;
         border-radius: 50px;
-        margin-left: -60px;
+        margin-left: -50px;
         display: none;
      }
      
@@ -277,7 +277,7 @@
 @media(max-width:600px){
     .right-section{
         width:50;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 }
 .create-button{
